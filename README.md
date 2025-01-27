@@ -124,4 +124,3 @@ Final Answer: grape
 ---
 
 Enjoy solving Wordle puzzles with this CLI tool! 🎉
-```
