@@ -166,7 +166,7 @@ class WordleSolver:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Wordle Solver CLI")
-    parser.add_argument("--size", type=int, required=True, help="Size of the Wordle puzzle")
+    parser.add_argument("--size", type=int, default=5, help="Size of the Wordle puzzle")
     subparsers = parser.add_subparsers(dest="mode", help="Mode to run the solver in")
 
     # Daily mode

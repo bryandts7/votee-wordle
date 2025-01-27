@@ -36,8 +36,13 @@ A command-line application to solve Wordle puzzles. This tool can solve the dail
 
 ### Solve Daily Wordle
 To solve the daily Wordle puzzle:
+
 ```bash
-python wordle_auto.py --size 5 daily
+python wordle_auto.py daily
+```
+
+```bash
+python wordle_auto.py --size 8 daily
 ```
 
 ### Solve Random Wordle
@@ -53,10 +58,10 @@ python wordle_auto.py --size 5 word apple
 ```
 
 ### Arguments
-- `--size`: The size of the Wordle puzzle (e.g., `5` for a 5-letter Wordle).
+- `--size`: The size of the Wordle puzzle (e.g., `5` for a 5-letter Wordle). The default value is 5
 - `daily`: Solve the daily Wordle.
 - `random`: Solve a random Wordle.
-- `word`: Solve a specific Wordle word (requires an additional argument for the word).
+- `word`: Solve a specific Wordle word (requires an additional argument for the word). If the number of alphabets in the specified word is not 5, you must specify the size accordingly.
 
 ---
 
