@@ -54,7 +54,10 @@ python wordle_auto.py --size 5 random
 ### Solve a Specific Word
 To solve a specific Wordle word (e.g., "apple"):
 ```bash
-python wordle_auto.py --size 5 word apple
+python wordle_auto.py word apple
+```
+```bash
+python wordle_auto.py --size 16 word psychophysiology
 ```
 
 ### Arguments
