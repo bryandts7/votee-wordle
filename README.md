@@ -1,4 +1,4 @@
-# Wordle Auto Solver CLI
+# Votee Wordle Auto Solver CLI
 
 A command-line application to solve Wordle puzzles. This tool can solve the daily Wordle, a random Wordle, or a specific Wordle word using a predefined algorithm.
 
